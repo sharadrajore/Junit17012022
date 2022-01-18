@@ -1,0 +1,5 @@
+package com.zensar.order.dao;
+
+public interface OrderDAO {
+
+}

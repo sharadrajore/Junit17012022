@@ -1,0 +1,31 @@
+package com.zensar;
+
+
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GreetingImplTest {
+
+	@Test
+	public void greetShouldReturnValidOutput() {
+		Greeting greetImpl=new GreetingImpl();
+		String name = greetImpl.greet("Sharad");		
+		assertEquals("Hello Sharad", name);
+	}
+	
+	@Test(expected = IllegalArgumentException.class)
+	public void greetShouldThrowAnException() {
+		Greeting greetImpl=new GreetingImpl();
+		greetImpl.greet(null);
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

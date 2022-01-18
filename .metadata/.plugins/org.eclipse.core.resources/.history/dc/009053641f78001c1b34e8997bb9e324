@@ -1,0 +1,10 @@
+package com.zensar.order.bo;
+
+import java.sql.SQLException;
+
+import com.zensar.order.dto.Order;
+import com.zensar.order.exception.BOException;
+
+public interface OrderBO {
+	boolean placeOrder (Order order) throws BOException;
+}

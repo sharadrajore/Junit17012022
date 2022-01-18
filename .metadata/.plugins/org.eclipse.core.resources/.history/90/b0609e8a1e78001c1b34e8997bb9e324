@@ -1,0 +1,14 @@
+package com.zensar.order.bo;
+
+import java.sql.SQLException;
+
+import com.zensar.order.dto.Order;
+
+public class OrderBOImpl implements OrderBO {
+
+	public boolean placeOrder(Order order) throws SQLException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

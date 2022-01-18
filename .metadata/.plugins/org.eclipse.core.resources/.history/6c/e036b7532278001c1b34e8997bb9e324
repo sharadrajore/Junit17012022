@@ -1,0 +1,20 @@
+package com.zensar.order.bo;
+
+import org.junit.Test;
+
+import com.zensar.order.dto.Order;
+import com.zensar.order.exception.BOException;
+
+public class OrderBOImplTest {
+
+	@Test
+	public void placeOrderShouldCreateAnOrder() throws BOException {
+		OrderBOImpl bo=new OrderBOImpl();
+		
+		Order order=new Order();
+		
+		bo.placeOrder(order);
+		
+	}
+
+}

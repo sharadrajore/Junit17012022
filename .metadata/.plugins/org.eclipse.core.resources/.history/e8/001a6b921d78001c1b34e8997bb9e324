@@ -1,0 +1,5 @@
+package com.zensar.order.dto;
+
+public class Order {
+
+}

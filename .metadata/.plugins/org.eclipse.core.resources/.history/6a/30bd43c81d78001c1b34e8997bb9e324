@@ -1,0 +1,14 @@
+package com.zensar.order.dto;
+
+import java.sql.SQLException;
+
+import com.zensar.order.dao.OrderDAO;
+
+public class OrderDAOImpl implements OrderDAO {
+
+	public int create(Order order) throws SQLException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
