@@ -4,4 +4,12 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="org.junit.After"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.zensar.order.dto.Order"/>
+    <fullyQualifiedTypeName name="com.zensar.order.dao.OrderDAO"/>
+    <fullyQualifiedTypeName name="com.zensar.order.exception.BOException"/>
+    <fullyQualifiedTypeName name="com.zensar.order.bo.OrderBOImpl"/>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+    <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
+    <fullyQualifiedTypeName name="org.mockito.Mockito"/>
 </qualifiedTypeNameHistroy>
